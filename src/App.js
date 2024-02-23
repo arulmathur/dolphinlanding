@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="bg-[url('./background.png')] bg-cover bg-center w-screen h-screen">
       <div className="flex items-center bg-white/40 pt-5 pb-5 mb-5 justify-between">
-        <h1 className="text-3xl font-bold ml-10">Dolphin</h1>
+        <h1 className="text-3xl font-bold ml-10">Dolphin AI</h1>
         <a
           className="mr-10 bg-blue-400 p-5 rounded-xl font-bold hover:bg-blue-500 transition duration-300 ease-in-out"
           href="https://dolphinmvp.vercel.app/"
@@ -30,7 +30,7 @@ function App() {
             </h1>
             <div className="mt-4 flex flex-col text-xl font-bold sm:text-3xl md:text-4xl">
               <p className="mr-1.5">
-                Quick, simple, insights right at your fingertips
+                Quick, streamlined, insights right at your fingertips
               </p>
               {/* <Typewriter
                 words={["spending", "income", "savings"]}
@@ -44,7 +44,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="w-auto lg:w-1/2 md:w-1/2">
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSdewrHDJgZPgTi6iE3k7xMs_4CjCC5cJuu8o-b9prMi0x74Yg/viewform?embedded=true"
             width="100%"
