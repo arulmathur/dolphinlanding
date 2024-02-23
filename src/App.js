@@ -44,17 +44,19 @@ function App() {
             </p>
           </div>
         </div>
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSdewrHDJgZPgTi6iE3k7xMs_4CjCC5cJuu8o-b9prMi0x74Yg/viewform?embedded=true"
-          width="100%"
-          height="640"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          className="rounded-xl mt-5 md:ml-5"
-        >
-          Loading…
-        </iframe>
+        <div className="w-1/2">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdewrHDJgZPgTi6iE3k7xMs_4CjCC5cJuu8o-b9prMi0x74Yg/viewform?embedded=true"
+            width="100%"
+            height="680"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            className="rounded-xl"
+          >
+            Loading…
+          </iframe>
+        </div>
       </div>
     </div>
   );
