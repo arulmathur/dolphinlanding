@@ -16,7 +16,7 @@ function App() {
       </div>
       <div className="flex flex-col md:flex-row justify-center">
         <div className="w-full md:w-1/2 px-5 md:ml-20 lg:ml-20">
-          <div className="flex flex-col items-center lg:items-start justify-center text-center lg:text-left text-black pt-10">
+          <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left text-black pt-10">
             <img
               src={dolphinLogo}
               style={{ width: "40%", height: "40%" }}
