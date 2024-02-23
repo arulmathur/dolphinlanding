@@ -9,7 +9,7 @@ function App() {
         <h1 className="text-3xl font-bold ml-10">Dolphin AI</h1>
         <a
           className="mr-10 bg-blue-400 p-5 rounded-xl font-bold hover:bg-blue-500 transition duration-300 ease-in-out"
-          href="mailto:arul@dolphinucla.com"
+          href="mailto:arul@dolphinucla.com,ron@dolphinucla.com?subject=Dolphin Contact Us"
         >
           Contact Us
         </a>
