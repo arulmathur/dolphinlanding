@@ -8,7 +8,7 @@ function App() {
       <div className="flex items-center bg-white/40 pt-5 pb-5 mb-5 justify-between">
         <h1 className="text-3xl font-bold ml-10">Dolphin AI</h1>
         <a
-          className="mr-10 bg-blue-400 p-5 rounded-xl font-bold hover:bg-blue-500 transition duration-300 ease-in-out"
+          className="mr-10 text-white bg-blue-500 p-5 rounded-xl font-bold hover:bg-blue-600 transition duration-300 ease-in-out"
           href="mailto:arul@dolphinucla.com,ron@dolphinucla.com?subject=Dolphin Contact Us"
         >
           Contact Us
@@ -16,7 +16,7 @@ function App() {
       </div>
       <div className="flex flex-col md:flex-row justify-center">
         <div className="w-full md:w-1/2 px-5 md:ml-20 lg:ml-20">
-          <div className="flex flex-col items-center justify-center text-center text-black pt-10">
+          <div className="flex flex-col items-center lg:items-start justify-center text-center lg:text-left text-black pt-10">
             <img
               src={dolphinLogo}
               style={{ width: "40%", height: "40%" }}
@@ -29,7 +29,7 @@ function App() {
               Simplify your finances
             </h1>
             <div className="mt-4 flex flex-col text-xl font-bold sm:text-3xl md:text-4xl">
-              <p className="mr-1.5">
+              <p className="mr-1.5 text-gray-500">
                 Quick, streamlined, insights right at your fingertips
               </p>
               {/* <Typewriter
