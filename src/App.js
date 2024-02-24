@@ -10,7 +10,7 @@ function App() {
           Dolphin AI
         </h1>
         <a
-          className="mr-10 text-white bg-teal-500 p-5 rounded-xl font-bold hover:bg-blue-600 transition duration-300 ease-in-out"
+          className="mr-10 text-white bg-teal-500 p-5 rounded-xl font-bold hover:bg-sky-500 transition duration-300 ease-in-out"
           href="mailto:arul@dolphinucla.com,ron@dolphinucla.com?subject=Dolphin Contact Us"
         >
           📞 Contact Us
