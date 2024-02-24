@@ -20,6 +20,7 @@ function App() {
             <img
               src={dolphinLogo}
               style={{ width: "40%", height: "40%" }}
+              className="rounded-xl"
               alt="logo"
             />
             <p className="p-2 font-bold uppercase text-white">
