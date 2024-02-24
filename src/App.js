@@ -5,10 +5,12 @@ import dolphinLogo from "./DolphinLogo.jpeg";
 function App() {
   return (
     <div className="bg-[url('./background.png')] bg-cover bg-center w-screen h-screen">
-      <div className="flex items-center bg-white/40 pt-5 pb-5 mb-5 justify-between">
-        <h1 className="text-3xl font-bold ml-10">Dolphin AI</h1>
+      <div className="flex items-center bg-white/80 pt-5 pb-5 mb-5 justify-between">
+        <h1 className="text-3xl font-bold ml-10 border-4 border-black p-2">
+          Dolphin AI
+        </h1>
         <a
-          className="mr-10 text-white bg-blue-500 p-5 rounded-xl font-bold hover:bg-blue-600 transition duration-300 ease-in-out"
+          className="mr-10 text-white bg-teal-500 p-5 rounded-xl font-bold hover:bg-blue-600 transition duration-300 ease-in-out"
           href="mailto:arul@dolphinucla.com,ron@dolphinucla.com?subject=Dolphin Contact Us"
         >
           Contact Us
