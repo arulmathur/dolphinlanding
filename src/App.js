@@ -31,7 +31,7 @@ function App() {
             </h1>
             <div className="mt-4 flex flex-col text-xl font-bold sm:text-3xl md:text-4xl">
               <p className="mr-1.5 text-gray-500">
-                Quick, streamlined, insights right at your fingertips
+                Quick, streamlined insights right at your fingertips
               </p>
               {/* <Typewriter
                 words={["spending", "income", "savings"]}
