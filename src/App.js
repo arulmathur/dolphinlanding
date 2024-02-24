@@ -13,7 +13,7 @@ function App() {
           className="mr-10 text-white bg-teal-500 p-5 rounded-xl font-bold hover:bg-blue-600 transition duration-300 ease-in-out"
           href="mailto:arul@dolphinucla.com,ron@dolphinucla.com?subject=Dolphin Contact Us"
         >
-          Contact Us
+          📞 Contact Us
         </a>
       </div>
       <div className="flex flex-col md:flex-row justify-center">
@@ -29,11 +29,11 @@ function App() {
               Built with ♥️ at UCLA
             </p>
             <h1 className="text-5xl font-bold sm:text-6xl md:text-7xl">
-              Simplify your finances
+              <div className="underline">Simplify</div> your finances
             </h1>
             <div className="mt-4 flex flex-col text-xl font-bold sm:text-3xl md:text-4xl">
               <p className="mr-1.5 text-gray-500">
-                Quick, streamlined insights right at your fingertips
+                Quick, streamlined insights right at your fingertips 🤞
               </p>
               {/* <Typewriter
                 words={["spending", "income", "savings"]}
