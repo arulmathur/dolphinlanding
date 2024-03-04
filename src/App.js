@@ -1,8 +1,10 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import dolphinLogo from "./DolphinLogo.jpeg";
+import { inject } from "@vercel/analytics";
 
 function App() {
+  inject();
   return (
     <div className="bg-[url('./background.png')] bg-cover bg-center w-screen h-screen">
       <div className="flex items-center bg-white/80 pt-5 pb-5 mb-5 justify-between">
