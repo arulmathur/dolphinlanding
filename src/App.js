@@ -42,9 +42,15 @@ function App() {
                 typeSpeed={120}
               /> */}
             </div>
-            <p className=" mt-4 w-[90vw] md:w-auto text-xl font-bold text-white md:text-2xl">
+            {/* <p className=" mt-4 w-[90vw] md:w-auto text-xl font-bold text-white md:text-2xl">
               Now available for alpha testing. Sign up to get early access.
-            </p>
+            </p> */}
+            <a
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold mt-5 py-2 px-4 rounded"
+              href="https://dolphinmvp.vercel.app/"
+            >
+              Try our MVP
+            </a>
           </div>
         </div>
         <div className="w-auto lg:w-1/2 md:w-1/2">
