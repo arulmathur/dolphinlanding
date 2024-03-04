@@ -29,11 +29,11 @@ function App() {
               Built with ♥️ at UCLA
             </p>
             <h1 className="text-5xl font-bold sm:text-6xl md:text-7xl">
-              <div className="underline">Simplify</div> your finances
+              <div className="underline">Dive</div> into your finances
             </h1>
             <div className="mt-4 flex flex-col text-xl font-bold sm:text-3xl md:text-4xl">
               <p className="mr-1.5 text-gray-500">
-                Quick, streamlined insights right at your fingertips 🤞
+                All your accounts, spending, and insights in one place 💯
               </p>
               {/* <Typewriter
                 words={["spending", "income", "savings"]}
