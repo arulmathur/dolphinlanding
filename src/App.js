@@ -1,5 +1,4 @@
 import React from "react";
-import { Typewriter } from "react-simple-typewriter";
 import dolphinLogo from "./DolphinLogo.jpeg";
 import { inject } from "@vercel/analytics";
 
@@ -37,22 +36,10 @@ function App() {
               <p className="mr-1.5 text-gray-500">
                 All your accounts, spending, and insights in one place 💯
               </p>
-              {/* <Typewriter
-                words={["spending", "income", "savings"]}
-                loop={0}
-                cursor={1}
-                typeSpeed={120}
-              /> */}
             </div>
             <p className=" mt-4 w-[90vw] md:w-auto text-xl font-bold text-white md:text-2xl">
               Now available for alpha testing. Sign up to get early access.
             </p>
-            {/* <a
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold mt-5 py-2 px-4 rounded"
-              href="https://dolphinmvp.vercel.app/"
-            >
-              Try our MVP
-            </a> */}
           </div>
         </div>
         <div className="w-auto lg:w-1/2 md:w-1/2">
